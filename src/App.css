@@ -61,6 +61,40 @@ padding-left: 45%;
 .logout-button:hover {
   background-color: #0056b3;
 }
+/* App.css */
+
+.header {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 35%;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.logout-button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.logout-button:hover {
+  background-color: #bd2130;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
